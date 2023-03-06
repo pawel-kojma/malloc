@@ -1,0 +1,225 @@
+./grade.py
+
+Running mdriver for 'traces/amptjp-bal.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  98.9%  2012279  2035100    5694  1.348426      4 traces/amptjp-bal.rep
+
+605,742,589  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    307,476  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (34,164x)
+
+Running mdriver for 'traces/amptjp.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  98.9%  2012279  2035100    4805  1.171337      4 traces/amptjp.rep
+
+527,443,265  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    259,470  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (28,830x)
+
+Running mdriver for 'traces/bash.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  79.5%    39700    49932    4162  0.919225      5 traces/bash.rep
+
+408,209,285  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    224,532  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (25,152x)
+
+Running mdriver for 'traces/binary.rep'...
+Penalty accrued for timeout of 30s.
+
+Running mdriver for 'traces/binary-bal.rep'...
+Penalty accrued for timeout of 30s.
+
+Running mdriver for 'traces/binary2.rep'...
+Penalty accrued for timeout of 30s.
+
+Running mdriver for 'traces/binary2-bal.rep'...
+Penalty accrued for timeout of 30s.
+
+Running mdriver for 'traces/cccp.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.2%  1679165  1693164    5032  1.257938      4 traces/cccp.rep
+
+536,376,082  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    271,728  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (30,192x)
+
+Running mdriver for 'traces/cccp-bal.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.2%  1679165  1693164    5848  1.400329      4 traces/cccp-bal.rep
+
+604,167,651  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    315,792  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (35,088x)
+
+Running mdriver for 'traces/chrome.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  69.0%   117784   170652   11991  9.004562      1 traces/chrome.rep
+
+4,041,877,586  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+      647,271  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (72,291x)
+
+Running mdriver for 'traces/coalescing.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.4%     8190     8236   14400  0.043612    330 traces/coalescing.rep
+
+9,402,781  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  777,600  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (86,400x)
+1,144,800  *  mm.c:coalesce [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  100,800  >   mm.c:set_free_metadata (14,400x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  777,654  *  memlib.c:mem_sbrk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  691,200  *  mm.c:mm_free [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+5,054,400  >   mm.c:mm_checkheap (43,200x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+1,245,600  >   mm.c:coalesce (21,600x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  540,072  *  mm.c:mm_malloc [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+5,125,981  >   mm.c:mm_checkheap (43,200x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  763,008  >   mm.c:put_chunk (21,594x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  237,576  >   mm.c:find_fit (21,600x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+       90  >   mm.c:morecore (6x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  475,101  *  mm.c:split [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  287,907  *  mm.c:put_chunk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  475,101  >   mm.c:split (14,397x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  237,576  *  mm.c:find_fit [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+
+Running mdriver for 'traces/coalescing-bal.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.4%     8190     8236   14400  0.043565    331 traces/coalescing-bal.rep
+
+9,402,781  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  777,600  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (86,400x)
+1,144,800  *  mm.c:coalesce [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  100,800  >   mm.c:set_free_metadata (14,400x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  777,654  *  memlib.c:mem_sbrk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  691,200  *  mm.c:mm_free [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+5,054,400  >   mm.c:mm_checkheap (43,200x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+1,245,600  >   mm.c:coalesce (21,600x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  540,072  *  mm.c:mm_malloc [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+5,125,981  >   mm.c:mm_checkheap (43,200x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  763,008  >   mm.c:put_chunk (21,594x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  237,576  >   mm.c:find_fit (21,600x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+       90  >   mm.c:morecore (6x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  475,101  *  mm.c:split [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  287,907  *  mm.c:put_chunk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  475,101  >   mm.c:split (14,397x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  237,576  *  mm.c:find_fit [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+
+Running mdriver for 'traces/coalesce-big.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.2%   320000   322716   20000  0.413169     48 traces/coalesce-big.rep
+
+175,247,977  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  1,080,000  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (120,000x)
+  1,768,590  *  mm.c:coalesce [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    207,900  >   mm.c:set_free_metadata (29,700x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  1,093,311  *  memlib.c:mem_sbrk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    960,000  *  mm.c:mm_free [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+ 89,204,192  >   mm.c:mm_checkheap (60,000x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  1,976,490  >   mm.c:coalesce (30,000x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    940,797  *  mm.c:split [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+
+Running mdriver for 'traces/corners.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+   yes 100.0% 52429270 52429452      15  0.000662     23 traces/corners.rep
+
+16,042  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   702  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (90x)
+   999  *  mm.c:mm_malloc [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+10,680  >   mm.c:mm_checkheap (60x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   405  >   mm.c:morecore (30x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   189  >   mm.c:find_fit (30x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   972  *  memlib.c:mem_sbrk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   528  *  mm.c:mm_realloc [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+ 5,889  >   mm.c:mm_checkheap (21x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    45  >   mm.c:morecore (3x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    21  >   mm.c:set_free_metadata (3x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   189  *  mm.c:find_fit [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   180  *  mm.c:morecore [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+   270  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (36x)
+
+Running mdriver for 'traces/cp-decl.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.5%  3165325  3180892    5683  1.711056      3 traces/cp-decl.rep
+
+755,736,419  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    306,882  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (34,098x)
+
+Running mdriver for 'traces/cp-decl-bal.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.5%  3165325  3180892    6648  1.884610      4 traces/cp-decl-bal.rep
+
+848,724,145  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    358,992  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (39,888x)
+
+Running mdriver for 'traces/expr.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.5%  3421135  3437308    4537  1.261216      4 traces/expr.rep
+
+568,119,435  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    244,998  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (27,222x)
+
+Running mdriver for 'traces/expr-bal.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  99.5%  3421135  3437308    5380  1.407832      4 traces/expr-bal.rep
+
+638,371,129  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    290,520  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (32,280x)
+
+Running mdriver for 'traces/firefox.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  71.0%    64882    91340    8000  4.035056      2 traces/firefox.rep
+
+1,776,505,979  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+      431,784  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (48,000x)
+
+Running mdriver for 'traces/fs.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+ * yes  95.0%    85637    90108     420  0.032094     13 traces/fs.rep
+
+14,405,487  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+    22,680  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (2,520x)
+
+Running mdriver for 'traces/hostname.rep'...
+
+Results for mm malloc:
+  valid  util    used   total   ops    secs      Kops  trace
+   yes  86.0%     6136     7132     118  0.002597     45 traces/hostname.rep
+
+874,249  *  mm.c:mm_checkheap [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  6,291  >   /home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/memlib.c:mem_sbrk (717x)
+ 10,308  *  mm.c:mm_malloc [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+775,512  >   mm.c:mm_checkheap (618x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  3,510  >   mm.c:morecore (243x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  2,484  >   mm.c:find_fit (309x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  1,998  >   mm.c:put_chunk (66x) [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  8,424  *  memlib.c:mem_sbrk [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+  2,484  *  mm.c:find_fit [/home/pawel/studia/3sem_lab/so/malloc-pawel-kojma/mdriver]
+
+Running mdriver for 'traces/login.rep'...
+

@@ -1,0 +1,21 @@
+# callgrind format
+version: 1
+creator: callgrind-3.15.0
+pid: 13280
+cmd:  ./mdriver -f traces/cccp-bal.rep
+part: 1
+
+
+desc: I1 cache: 
+desc: D1 cache: 
+desc: LL cache: 
+
+desc: Timerange: Basic block 0 - 260894
+desc: Trigger: Program termination
+
+positions: line
+events: Ir
+summary: 0
+
+
+totals: 0
